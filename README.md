@@ -1,4 +1,4 @@
-angular-mixpanel
+leaflet-angular-mixpanel
 ================
 
 Wraps the mixpanel JavaScript global to make it injectable and aid in testing.
@@ -6,7 +6,7 @@ Wraps the mixpanel JavaScript global to make it injectable and aid in testing.
 Installation
 ------------
 
-Install via bower: `bower install angular-mixpanel`
+Install via bower: `bower install leaflet-angular-mixpanel`
 
 Or if you're old skool, copy `src/angular-mixpanel.js` into your project.
 
@@ -14,7 +14,7 @@ Then add the script to your page (be sure to include the mixpanel lib as well):
 
 ```html
 <script src="/bower_components/mixpanel/mixpanel-jslib-snippet.min.js"></script>
-<script src="/bower_components/angular-mixpanel/src/angular-mixpanel.js"></script>
+<script src="/bower_components/leaflet-angular-mixpanel/src/angular-mixpanel.js"></script>
 ```
 
 Usage
@@ -56,11 +56,6 @@ angular.module('myApp').controller('MyCtrl', function ($scope, $mixpanel) {
     $mixpanel.track('my event');
 });
 ```
-
-Issues or feature requests
---------------------------
-
-Create a ticket [here](https://github.com/kuhnza/angular-mixpanel/issues)
 
 Contributing
 ------------
